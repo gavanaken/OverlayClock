@@ -6,11 +6,11 @@
         xmlns:local="clr-namespace:OverlayClock"
         mc:Ignorable="d"
         Title="OverlayClock" Height="27" Width="66" ResizeMode="NoResize" Topmost="True" WindowStyle="None" AllowsTransparency="True" Opacity="0.5" Icon="/Clock.png" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Background="Transparent" Foreground="#00000000">
-    <Label x:Name="lblClock" Content="00:00" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" Width="66" Height="34" Grid.RowSpan="2" FontWeight="Bold" FontSize="24" Background="#33000000" Padding="0,0,0,0">
+    <Label x:Name="lblClock" Content="00:00" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" Width="66" Height="34" Grid.RowSpan="2" FontWeight="Bold" FontSize="24" Background="#33000000" Padding="0,0,0,0" BorderBrush="Black">
         <Label.Foreground>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FF0062D0" Offset="1"/>
-                <GradientStop Color="#FF2A9A01" Offset="0"/>
+                <GradientStop Color="#FF838383" Offset="1"/>
+                <GradientStop Color="White" Offset="0"/>
             </LinearGradientBrush>
         </Label.Foreground>
         <Label.Style>
