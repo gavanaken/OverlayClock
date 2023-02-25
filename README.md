@@ -17,3 +17,7 @@ Feel free to suggest features / report issues to GitHub.
 ## Contributing
 Checkout the issues tab for things to do and feel free to submit a pull request!
 
+## Installation
+- Download the .zip from the latest **release**.
+- Unzip and run `Installer.msi`
+- Will install to `C:\Program Files\Gavanaken\OverlayClock`
